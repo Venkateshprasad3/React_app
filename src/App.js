@@ -1,12 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import LoginPage from './LoginPage';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-        <h1>Venkatesh prasad</h1>
-    </div>
+  <LoginPage/>
   );
 }
 
