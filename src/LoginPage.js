@@ -17,9 +17,10 @@ export default class LoginPage extends React.Component{
         super();
         this.login = this.login.bind(this);
     }
-     login() {
-         this.props.history.push(`/browseMusic`);
-    };
+
+    login() {
+        this.props.history.push('/browseMusic');
+    }
 
 
 render() {
